@@ -19,6 +19,8 @@ public class Activator : Interactable
         if (activated && ActivateOnce)
             return;
 
+        base.Use();
+
         MyActivateable.Activate();
 
         activated = true;

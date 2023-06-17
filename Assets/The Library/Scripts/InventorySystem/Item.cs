@@ -12,7 +12,10 @@ public class Item : Interactable
     public ItemType Type;
 
     public override void Use()
-        => PickUp();
+    {
+        base.Use();
+        PickUp();
+    }
     private void PickUp()
     {
         Inventory.AddItem(this);

@@ -17,7 +17,7 @@ public class Interactor : MonoBehaviour
     {
         RaycastHit interactRay;
 
-        if (Physics.Raycast(MainCamera.position, MainCamera.forward, out interactRay, 10f, InteractableLayer))
+        if (Physics.Raycast(MainCamera.position, MainCamera.forward, out interactRay, 1.5f, InteractableLayer))
         {
             var hittedGameobject = interactRay.collider.gameObject;
 

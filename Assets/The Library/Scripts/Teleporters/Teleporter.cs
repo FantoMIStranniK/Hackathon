@@ -7,5 +7,8 @@ public class Teleporter : Interactable
     [SerializeField] private Transform TeleportPosition;
 
     public override void Use()
-        => ObjectToTeleport.transform.position = TeleportPosition.position;
+    {
+        base.Use();
+        ObjectToTeleport.transform.position = TeleportPosition.position;
+    }
 }
