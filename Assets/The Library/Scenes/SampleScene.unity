@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToTeleport: {fileID: 1667264879}
-  TeleportPosition: {fileID: 841256866}
+  TeleportPosition: {fileID: 1504568180}
 --- !u!1001 &373881163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -240,6 +240,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9221344706620233266, guid: f0ef90d91fa2eb447b8ecf6d06fe5ac5, type: 3}
+      propertyPath: ObjectToTeleport
+      value: 
+      objectReference: {fileID: 1667264879}
+    - target: {fileID: 9221344706620233266, guid: f0ef90d91fa2eb447b8ecf6d06fe5ac5, type: 3}
+      propertyPath: TeleportPosition
+      value: 
+      objectReference: {fileID: 1467737649}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0ef90d91fa2eb447b8ecf6d06fe5ac5, type: 3}
 --- !u!4 &373881164 stripped
@@ -382,6 +390,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3652744490696962789, guid: ffe44159cb19cd14cb4abbf472eae12b, type: 3}
+      propertyPath: ObjectToTeleport
+      value: 
+      objectReference: {fileID: 1667264879}
+    - target: {fileID: 3652744490696962789, guid: ffe44159cb19cd14cb4abbf472eae12b, type: 3}
+      propertyPath: TeleportPosition
+      value: 
+      objectReference: {fileID: 1467737649}
     - target: {fileID: 8281720933927695548, guid: ffe44159cb19cd14cb4abbf472eae12b, type: 3}
       propertyPath: m_Name
       value: Dikiy sad illusion
@@ -623,6 +639,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 422276, guid: 131a112cf67c4e98af44b350b210ef43, type: 3}
   m_PrefabInstance: {fileID: 1312887014}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1467737649 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1538962242746247712, guid: dd53e10bc560c7842adb588bf5b34429, type: 3}
+  m_PrefabInstance: {fileID: 2089701079}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1489586635
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,6 +738,11 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!4 &1504568180 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3888434472451157333, guid: 98be8b054deac8b4495e15ed037961a1, type: 3}
+  m_PrefabInstance: {fileID: 2118435934136815860}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1536745046
 GameObject:
   m_ObjectHideFlags: 0
@@ -1189,7 +1215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4218997256013240724, guid: dd53e10bc560c7842adb588bf5b34429, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: -14.75
       objectReference: {fileID: 0}
     - target: {fileID: 4248634179082728165, guid: dd53e10bc560c7842adb588bf5b34429, type: 3}
       propertyPath: m_IsActive
@@ -1221,7 +1247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6928533358102418083, guid: dd53e10bc560c7842adb588bf5b34429, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6928533358102418083, guid: dd53e10bc560c7842adb588bf5b34429, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1271,6 +1297,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7647770089839793798, guid: dd53e10bc560c7842adb588bf5b34429, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.050056
+      objectReference: {fileID: 0}
     - target: {fileID: 7788839193544042118, guid: dd53e10bc560c7842adb588bf5b34429, type: 3}
       propertyPath: GameObjectsToActivate.Array.size
       value: 2
@@ -1294,7 +1324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1439493037479664462, guid: d3bfff954eb8f294ba8f33e1198f28ad, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1439493037479664462, guid: d3bfff954eb8f294ba8f33e1198f28ad, type: 3}
       propertyPath: m_LocalScale.x
@@ -1363,11 +1393,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2118435934638192982, guid: 98be8b054deac8b4495e15ed037961a1, type: 3}
       propertyPath: m_Name
-      value: Illusion base room
+      value: Crimea Illusion
       objectReference: {fileID: 0}
     - target: {fileID: 2118435934638192983, guid: 98be8b054deac8b4495e15ed037961a1, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2118435934638192983, guid: 98be8b054deac8b4495e15ed037961a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1409,5 +1439,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8939745255465588940, guid: 98be8b054deac8b4495e15ed037961a1, type: 3}
+      propertyPath: ObjectToTeleport
+      value: 
+      objectReference: {fileID: 1667264879}
+    - target: {fileID: 8939745255465588940, guid: 98be8b054deac8b4495e15ed037961a1, type: 3}
+      propertyPath: TeleportPosition
+      value: 
+      objectReference: {fileID: 1467737649}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98be8b054deac8b4495e15ed037961a1, type: 3}
