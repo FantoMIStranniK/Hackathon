@@ -35,13 +35,22 @@ public class PlayerMovement : MonoBehaviour
 
     private void Input()
     {
-        horizontalInput = UnityEngine.Input.GetAxisRaw("Horizontal");
-        verticalInput = UnityEngine.Input.GetAxisRaw("Vertical");
-    }
+        verticalInput = 0;
+        horizontalInput = 0;
 
+        if (UnityEngine.Input.GetKey(KeyBinds.ForwardKey))
+            verticalInput = 1;
+        else if (UnityEngine.Input.GetKey(KeyBinds.BackwardKey))
+            verticalInput = -1;
+
+        if (UnityEngine.Input.GetKey(KeyBinds.LeftKey))
+            horizontalInput = -1;
+        else if (UnityEngine.Input.GetKey(KeyBinds.RightKey))
+            horizontalInput = 1;
+    }
     private void MovePlayer()
     {
-        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        moveDirection = orientation.forward * verticalInput * 0.1f + orientation.right * horizontalInput * 0.1f;
 
         rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
     }
